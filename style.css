@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.nav{
+    background-image: url(wiktoria-skrzekotowska-LONBQgZDB6o-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    display: flex;
+    justify-content: space-between;
+    height: 644px;
+}
+.but{
+    position: relative;
+    z-index: 10;
+    right: 40px;
+}
+h1{
+    color: rgba(174, 235, 174, 0.966);
+    text-shadow:1px 4px 10px rgb(0, 170, 23);
+    text-wrap: nowrap;
+    width: 130px;
+    position: relative;
+    z-index: 10 ;
+    left: 20px;
+    font-size: 50px;
+}
+.home{
+    color: rgb(255, 255, 255);
+    background-color: rgba(52, 53, 52, 0.603);
+    text-shadow: 1px 4px 10px rgb(0, 255, 55);
+    font-size: 25px;
+    border-radius: 20%;
+    padding: 2px 6px 2px 6px;
+    box-shadow: 1px 4px 10px rgb(147, 206, 139);
+    
+}
+.allview{
+    color: rgb(205, 240, 208);
+    background-color: rgba(67, 153, 71, 0.342);
+    text-shadow: 1px 4px 10px rgb(0, 255, 55);
+    font-size: 25px;
+    border-radius: 20%;
+    padding: 2px 6px 2px 6px;
+    box-shadow: 1px 4px 10px rgb(147, 206, 139);
+}
+.allinfo{
+    color: white;
+    background-color: rgba(23, 23, 23, 0.7);
+    text-shadow: 1px 4px 10px rgb(39, 161, 55);
+    font-size: 25px;
+    border-radius: 20%;
+    padding: 2px 6px 2px 6px;
+    box-shadow: 1px 4px 10px rgb(147, 206, 139);
+}
+
+.sea{
+    background-color: rgba(44, 56, 46, 0.534);
+    color:white;
+    padding: 3px 24px;
+    font-size: 30px;
+    border-radius: 5px;
+    font-weight: 1000;
+}
+
+.in{
+    top: 300px;
+    position: relative;
+    
+}
+.sep {
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+}
+.vid{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+   
+}
+
+.tho1{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.tho{
+    font-size: 48px;
+    font-weight: bolder;
+    color: white;
+    align-items: center;
+    text-shadow: 1px 4px 10px green;
+}
