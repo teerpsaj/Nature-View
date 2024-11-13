@@ -69,3 +69,48 @@ body{
     width: 100px;
    
 }
+
+
+@media screen and (max-width: 1000px) {
+
+    .tho1{
+        font-size: 15px;
+    }
+    .vid{
+       
+        max-width: 40vw;
+        
+        width: 70px;
+       
+    }
+    h1{
+        
+        width: 50px;
+       
+        left: 10px;
+        font-size: 27px;
+    }
+    .home{
+       
+        font-size: 15px;
+        border-radius: 10%;
+        padding: 1px 3px 1px 3px;
+        
+    }
+    .allview{
+font-size: 15px;
+                border-radius: 10%;
+        padding: 1px 3px 1px 3px;
+    }
+    
+    .but{
+        
+        right: 10px;
+    }
+    .allinfo{
+         font-size: 15px;
+        border-radius: 10%;
+        padding: 1px 3px 1px 3px;
+
+}
+}
