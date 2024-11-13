@@ -103,6 +103,59 @@ h1{
 @media screen and (max-width: 1000px) {
 
     nav{
+        max-width: 70vw;
+        
+    }
+    .home{
+    
+    font-size: 15px;
+    border-radius: 10%;
+    padding: 1px 3px 1px 3px;
+    flex-wrap: wrap;
+
+}
+    .but{
+    
+    right: 20px;
+}
+    h1{
+    
+    width: 90px;
+    left: 15px;
+    font-size: 40px;
+}
+    .allview{
+   
+    font-size: 15px;
+    border-radius: 10%;
+    padding: 1px 3px 1px 3px;
+    flex-wrap: wrap;
+}
+.allinfo{
+     font-size: 15px;
+    border-radius: 10%;
+    padding: 1px 3px 1px 3px;
+    flex-wrap: wrap;
+}
+    .sea{
+    
+    padding: 2px 12px;
+    font-size: 25px;
+    border-radius: 5px;
+    font-weight: 600px;
+}
+    .vid{
+   
+    max-width: 40vw;
+    
+   
+}
+
+.tho1{
+    font-size: 35px;
+    @media screen and (max-width: 1000px) {
+
+    nav{
         max-width: 90vw;
         
     }
@@ -153,13 +206,20 @@ h1{
 
 .tho1{
     font-size: 35px;
+        flex-wrap: nowrap;
+
 }
 
 .tho{
     font-size: 35px;
+        flex-wrap: nowrap;
+
    
 }
 
 
    
 }
+}
+
+
