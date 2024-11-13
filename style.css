@@ -199,19 +199,20 @@ h1{
 }
     .vid{
    
-    max-width: 40vw;
+    max-width: 20vw;
+        width: 200px;
     
    
 }
 
 .tho1{
-    font-size: 35px;
+    font-size: 20px;
         flex-wrap: nowrap;
 
 }
 
 .tho{
-    font-size: 35px;
+    font-size: 20px;
         flex-wrap: nowrap;
 
    
