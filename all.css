@@ -1,0 +1,113 @@
+h1{
+    color: rgba(174, 235, 174, 0.966);
+    text-shadow:1px 4px 10px rgb(0, 170, 23);
+    text-wrap: nowrap;
+    width: 130px;
+    position: relative;
+    z-index: 10 ;
+    left: 20px;
+    font-size: 50px;
+}
+.home{
+    color: rgb(255, 255, 255);
+    background-color: rgba(52, 53, 52, 0.603);
+    text-shadow: 1px 4px 10px rgb(0, 255, 55);
+    font-size: 25px;
+    border-radius: 20%;
+    padding: 2px 6px 2px 6px;
+    box-shadow: 1px 4px 10px rgb(147, 206, 139);
+    
+}
+.allview{
+    color: rgb(205, 240, 208);
+    background-color: rgba(67, 153, 71, 0.342);
+    text-shadow: 1px 4px 10px rgb(0, 255, 55);
+    font-size: 25px;
+    border-radius: 20%;
+    padding: 2px 6px 2px 6px;
+    box-shadow: 1px 4px 10px rgb(147, 206, 139);
+}
+.allinfo{
+    color: white;
+    background-color: rgba(23, 23, 23, 0.7);
+    text-shadow: 1px 4px 10px rgb(39, 161, 55);
+    font-size: 25px;
+    border-radius: 20%;
+    padding: 2px 6px 2px 6px;
+    box-shadow: 1px 4px 10px rgb(147, 206, 139);
+}
+.but{
+    position: relative;
+    z-index: 10;
+    right: 40px;
+}
+body{
+    background-color: black;
+}
+.exnav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sep {
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+}
+.tho1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.vid{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+
+    margin: auto;
+    color: white;
+    align-items: center;
+    width: 100px;
+   
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    .tho1{
+        font-size: 15px;
+    }
+    
+    h1{
+        
+        width: 50px;
+       
+        left: 10px;
+        font-size: 27px;
+    }
+    .home{
+       
+        font-size: 15px;
+        border-radius: 10%;
+        padding: 1px 3px 1px 3px;
+        
+    }
+    .allview{
+        font-size: 15px;
+        border-radius: 10%;
+        padding: 1px 3px 1px 3px;
+    }
+    .allinfo{
+        font-size: 15px;
+        border-radius: 10%;
+        padding: 1px 3px 1px 3px;
+    }
+    .but{
+        
+        right: 10px;
+    }
+    .vid{
+width: 110px;
+    }
+
+}
