@@ -109,3 +109,90 @@ body{
     display: flex;
     justify-content: space-between;
 }
+
+
+
+
+@media screen and (max-width: 1000px) {
+    h1{
+        
+        width: 70px;
+       
+        left: 10px;
+        font-size: 30px;
+    }
+    .home{
+       
+        font-size: 15px;
+        border-radius: 10%;
+        padding: 1px 3px 1px 3px;
+        
+    }
+    .allview{
+        font-size: 15px;
+        border-radius: 10%;
+        padding: 1px 3px 1px 3px;
+    }
+    .allinfo{
+        font-size: 15px;
+        border-radius: 10%;
+        padding: 1px 3px 1px 3px;
+    }
+    .but{
+        
+        right: 10px;
+    }
+
+    section{
+        
+        width: 150%;
+        height: 90vh;
+    }
+    
+    
+    
+    
+       
+    
+    section video{
+        
+        width: 70%;
+        height: 60%;
+    }
+    section .navigation{
+       
+        padding: 2px;
+        bottom: 5%;
+        left: 30%;
+       
+        height: 70px;
+        width: 100px;
+    }
+    
+    section .navigation li{
+        
+        border-radius: 2px;
+      
+    }
+    
+    
+    section .navigation li img:hover{
+        height: 100px;
+        width: 150px;
+    }
+    .d{
+        height: 28px;
+        width: 12px;
+       
+    }
+}
+    
+    
+    
+    
+    
+    
+    
+    
+
+
