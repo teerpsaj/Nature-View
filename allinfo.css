@@ -10,6 +10,16 @@ h2{
 p{
     color: rgb(207, 224, 209);
 }
+.heading{
+    color: rgba(96, 231, 96, 0.966);
+    text-shadow:1px 4px 10px rgb(217, 235, 219);
+    text-wrap: nowrap;
+    width: 130px;
+    position: relative;
+    z-index: 10 ;
+    left: 20px;
+    font-size: 60px; 
+}
 h1{
     color: rgba(174, 235, 174, 0.966);
     text-shadow:1px 4px 10px rgb(0, 170, 23);
@@ -59,4 +69,50 @@ body{
 .innav{
     display: flex;
     justify-content: space-between;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size: 20px;
+}
+
+h1{
+        
+    width: 70px;
+   
+    left: 10px;
+    font-size: 30px;
+}
+.home{
+   
+    font-size: 15px;
+    border-radius: 10%;
+    padding: 1px 3px 1px 3px;
+    
+}
+.allview{
+    font-size: 15px;
+    border-radius: 10%;
+    padding: 1px 3px 1px 3px;
+}
+.allinfo{
+    font-size: 15px;
+    border-radius: 10%;
+    padding: 1px 3px 1px 3px;
+}
+.but{
+    
+    right: 10px;
+}
+.heading{
+    font-size: 40px;
+}
+
+
 }
